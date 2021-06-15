@@ -13,7 +13,6 @@ public class Main {
         b = scan.nextInt();
         System.out.print("Ucuncu Kenar : ");
         c = scan.nextInt();
-
         double cevre = (a + b + c) / 2;
         double alan = Math.sqrt(cevre * (cevre - a) * (cevre - b) * (cevre - c));
         System.out.println("Girmis oldugunuz kenarlara gore alan : " + alan);
