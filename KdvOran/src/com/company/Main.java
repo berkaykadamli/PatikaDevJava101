@@ -14,5 +14,6 @@ public class Main {
         System.out.println("KDV'siz Fiyat : " + value);
         System.out.println("KDV'li Fiyat : " + (value + kdvValue));
         System.out.println("KDV' Tutarı : " + kdvValue);
+
     }
 }
