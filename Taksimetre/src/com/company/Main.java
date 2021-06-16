@@ -10,7 +10,6 @@ public class Main {
         double perKm = 2.20, total, startPrice = 10;
         System.out.println("Km giriniz : ");
         km = scan.nextInt();
-
         total = (km * perKm);
         total += startPrice;
         total = (total < 20) ? 20 : total;
