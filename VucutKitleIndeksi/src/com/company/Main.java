@@ -13,6 +13,5 @@ public class Main {
         kilo = scan.nextDouble();
         indeks = (kilo / (boy * boy));
         System.out.println("Vücut Kitle Endeksiniz : " + indeks);
-
     }
 }
